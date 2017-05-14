@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hotel Template </title>
+<link rel="stylesheet" type="text/css" href="Project1.css">
+</head>
+<body>
+<header>
+<h1>**Taj Hotel Services**</h1>
+<nav>
+     <a href="file:///C:/Users/mahe/Desktop/Project/Project.html">Home</a>
+     <a href="file:///C:/Users/mahe/Desktop/Project/Project1.html">Rooms</a>
+     <a href="file:///C:/Users/mahe/Desktop/Project/Project2.html">Cost Estimator</a>
+</nav>	
+</header>
+<h3>Click Rooms to go back and check out our rooms or Cost Estimator to estimate cost of another room!</h3>
+<script type="text/javascript">
+var n=0;
+alert('Welcome to the cost Estimator of the Taj Hotel Services. Kindly fill up your information which will be asked followed the message to complete your estimation inclusive of all taxes.');
+x=prompt('First Name : ');
+y=prompt('Last Name :');
+alert('Welcome Mr/Mrs '+x+' '+y);
+n=prompt('Name of the room you want to book : 1. Super Deluxe AC 2. Deluxe Suite (Enter 1 or 2) ');
+if(n==1)
+{
+	no=prompt('How many rooms would you like to book?');
+    num=prompt('How many days would you like to stay?');
+    alert('Thank you for chosing our supercomfortable Super Deluxe AC.');
+	alert('Your request :'+no+' '+' Super Deluxe AC for '+num+' '+'days. Click Ok to Confirm.');
+	alert('Thank you for chosing Taj Services. Your total cost would be : Rs '+(1018*no*num));
+}
+else if(n==2)
+{
+	no=prompt('How many rooms would you like to book?');
+    num=prompt('How many days would you like to stay?');
+    alert('Thank you for chosing our extraordinary Deluxe Suite');
+	alert('Your request :'+no+' '+'Deluxe Suite for '+num+' '+'day(s). Click Ok to Confirm.');
+	alert('Thank you for chosing Taj Services. Your total cost would be : Rs '+(1320*no*num));
+}
+else
+{
+	alert('You entered the wrong option. Kindly Chose from 1 or 2.');
+}
+</script>

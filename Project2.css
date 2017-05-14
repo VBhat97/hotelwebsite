@@ -1,0 +1,23 @@
+body{
+   background-color: yellow;
+}
+
+h1{
+	color: brown;
+	text-align: center;
+	font-size: 70px;
+}
+nav a{
+    margin: 170px;
+    background-color: ;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+a: link{
+	color: blue;
+}
+a:hover{
+	color: red;
+	font-size: 150%;
+}
